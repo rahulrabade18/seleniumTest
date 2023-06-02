@@ -13,6 +13,8 @@ public class seleniumlocators {
 		  System.setProperty("Webdriver.chrome.driver", "C:\\Users\\Vasyerp\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		  WebDriver driver = new ChromeDriver();
 		  
+		  //testing comment
+		  
 		    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));   
 		    driver.get("https://rahulshettyacademy.com/locatorspractice/");
 		    driver.findElement(By.id("inputUsername")).sendKeys("rahul");
