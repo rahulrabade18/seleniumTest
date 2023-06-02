@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+/**
+ * @author Vasyerp
+ *
+ */
+interface seleniumsecond {
+	
+}
